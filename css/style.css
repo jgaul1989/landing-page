@@ -25,11 +25,17 @@ button {
     border-radius: 10px;
     width: 150px;
     font-weight: bold;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+}
+
+button:hover{
+    background-color: navy;
 }
 
 .hero-secondary-text,
-a,
-button {
+a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -165,6 +171,35 @@ h1 {
     font-weight: lighter;
 }
 
-aside {
+.quote aside {
     text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cta-container {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    width: 900px;
+    height: 180px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-text-large {
+    font-size: 24px;
+    font-weight: bold;
 }
