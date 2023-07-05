@@ -1,2 +1,3 @@
 # landing-page
-A basic landing page to practice using Flex Box.
+This is a simple web page that uses flexbox to position elements
+on the web page.
